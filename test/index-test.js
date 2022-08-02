@@ -2,6 +2,7 @@ const jsdom = require( 'jsdom' );
 const path = require( 'path' );
 var chai = require( 'chai' );
 chai.use( require( 'chai-fs' ) );
+// hello
 
 describe( 'This assignment', () => {
   it( 'has been correctly cloned to your local environment', () => {
